@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pragya Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h2 class="logo">PRAGYA</h2>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#projects">PROJECT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Hello!</h3>
+      <h1>I’m <span>PRAGYA TIWARI</span></h1>
+        <p>My journey in tech began with front-end development using HTML, CSS, and JavaScript, and I’ve expanded my skills into React JS, Bootstrap, and Tailwind CSS, working on various hands-on projects .
+Programming Languages:
+Python, JavaScript, HTML5, CSS3, SQL
+
+Frontend Development:
+React JS, Bootstrap, Tailwind CSS, Responsive Web Design, Git & GitHub
+
+Tools & Technologies:
+Figma (Learning), VS Code, EmailJS, PDF Export, Web APIs
+
+Soft Skills:
+Team Collaboration, Creativity, Time Management, Strong Communication, Problem Solving.</p>
+      
+      <div class="buttons">
+        <a href="#contact" class="btn yellow">Hire Me</a>
+        <a href="#projects" class="btn">My Works</a>
+      </div>
+    </div>
+    <div class="image">
+      <img src="poto/WhatsApp_Image_2025-06-29_at_9.10.07_PM-removebg-preview.png" alt="Profile Image" />
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-boxes">
+      <div class="box">
+        <h3>Personal portfolio</h3>
+      
+        <p> Personal Portfolio Website (HTML/CSS/JS)
+
+Caption:
+"Crafted a personal portfolio using HTML to structure content, showcasing my journey and skills."</p>
+      </div>
+      <div class="box">
+        <h3>Amazon Clone </h3>
+        <p>Amazon Clone (HTML/CSS)
+
+Caption:
+"Created a static Amazon-like UI using pure HTML and CSS for layout and styling."
+
+.</p>
+      </div>
+      <div class="box">
+      <h3>Weather App</h3>
+        <p> Weather App UI (HTML/CSS/JS)
+
+Caption:
+"Designed the structure of a weather app using HTML for clean and readable content blocks."
+
+.</p>
+      </div>
+      <div class="box">
+        <h3>Responsive Web Design</h3>
+        <p> Responsive Web Design Project (HTML/CSS)
+
+Caption:
+"Built a fully responsive layout using semantic HTML and flexible CSS for all screen sizes."</p>
+      </div>
+      <div class="box">
+      <h3>Amazon Clone</h3> 
+Mother's Day & New Arrivals (HTML Sections in Amazon Clone)
+
+Caption:
+"Added festive sections using clean HTML layout blocks to enhance user experience."
+
+      </div>
+      <div>
+        <div class="box">
+                  <h3>Job Portal </h3> 
+                  <p>
+                     Job Portal (HTML,css,js,Python Base)
+
+Caption:
+"Structured a mini job portal with HTML—includes job cards, filters, and detail sections."
+
+                  </p>
+
+        </div>
+      </div>
+    </div>
+    <section id="certificates" class="certificates">
+  <h2>My Certificates</h2>
+  <div class="certificate-container">
+    
+    <div class="certificate-card">
+      <h3>Python Training Certificate</h3>
+      <p>Organized by my campus (2024)</p>
+      
+    </div>
+
+    <div class="certificate-card">
+      <h3>Mahindra 80 Kaabil Program</h3>
+      <p>By Centum Foundation (2024-25)</p>
+      
+    </div>
+
+    <div class="certificate-card">
+      <h3>Heartfulness Essay Event</h3>
+      <p>Theme: Peace & Harmony (2024)</p>
+      
+    </div>
+<div class="certificate-card">
+  <h3>Quantum Quest Certificate</h3>
+  <p>Organized by National Quantum Mission (IIT)</p>
+
+</div>
+
+<div class="certificate-card">
+  <h3>Tech Innovation Quiz</h3>
+  <p>Organized by CSMJU Innovation, National Technology Day</p>
+  
+</div>
+
+<div class="certificate-card">
+  <h3>Tech Marathon Certificate</h3>
+  <p>Organized by my campus (2024)</p>
+
+</div>
+  </section>
+  <section id="skills" class="skills">
+  <h2>My Skills</h2>
+  <div class="skills-container">
+
+    <div class="skill">
+      <span>HTML</span>
+      <div class="bar"><div class="progress html">90%</div></div>
+    </div>
+
+    <div class="skill">
+      <span>CSS</span>
+      <div class="bar"><div class="progress css">85%</div></div>
+    </div>
+
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="bar"><div class="progress js">75%</div></div>
+    </div>
+
+    <div class="skill">
+      <span>Python</span>
+      <div class="bar"><div class="progress python">70%</div></div>
+    </div>
+
+    <div class="skill">
+      <span>SQL</span>
+      <div class="bar"><div class="progress sql">60%</div></div>
+    </div>
+
+  </div>
+</section>
+
+  <footer id="contact">
+    <h2>THANK YOU</h2>
+    <p>Web Developer | Freelancer</p>
+ <p><strong>Phone:</strong> +91 87556678xx</p>
+    <p><strong>Email:</strong> sttiwari5778@gmail.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+//css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #000;
+}
+
+.logo {
+  color: orange;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: orange;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.content h1 span {
+  color: yellow;
+  font-weight: bold;
+}
+
+.content p {
+  margin: 20px 0;
+  color: #ccc;
+}
+
+.buttons .btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.buttons .yellow {
+  background: yellow;
+}
+
+.image img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.projects {
+  padding: 50px;
+  background: #111;
+  text-align: center;
+}
+
+.projects h2 {
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.project-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-boxes .box {
+  background: #222;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.project-boxes .box:hover {
+  background: #ff9800;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  background: #000;
+}
+
+footer h2 {
+  color: #fff;
+  font-size: 32px;
+}
+
+footer p {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+footer .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  color: white;
+  background: blue;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.home h3 {
+  font-size: 28px; /* Hello! */
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.home h1 {
+  font-size: 48px; /* I'm Pragya Tiwari */
+  margin: 10px 0;
+}
+
+.projects h2 {
+  font-size: 40px; /* Projects heading */
+  margin-bottom: 30px;
+}
+/* Common Button Styles */
+ .btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background0.3s, transform 0.2s;
+}
+
+/* "Hire Me" button - Yellow default */
+.buttons .yellow {
+  background: yellow;
+  color: black;
+}
+
+.buttons .yellow:hover {
+  background: orange;     /* On hover */
+  color: white;
+}
+
+.buttons .yellow:active {
+  background: #e65100;    /* On click */
+  transform: scale(0.96);
+}
+
+/* "My Works" button - White default */
+.buttons .btn:not(.yellow) {
+  background: white;
+  color: black;
+  border: 2px solid yellow;
+}
+
+.buttons .btn:not(.yellow):hover {
+  background: #2196f3;    /* Blue on hover */
+  color: white;
+}
+
+.buttons .btn:not(.yellow):active {
+  background: #1565c0;    /* Dark blue on click */
+  transform: scale(0.96);
+}
+.about {
+  background: #111;
+  color: #ddd;
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.about h2 {
+  color: orange;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 15px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+.read-btn {
+  background-color: yellow;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background0.3s;
+}
+
+.read-btn:hover {
+  background: orange;
+  color: white;
+}
+
+.read-btn:active {
+  background: #e65100;
+}
+.certificates {
+  background: #111;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.certificates h2 {
+  font-size: 36px;
+  color: orange;
+  margin-bottom: 30px;
+}
+
+.certificate-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.certificate-card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 260px;
+  text-align: left;
+  box-shadow: 0 0 8px #000;
+  transition: transform 0.3s;
+}
+
+.certificate-card:hover {
+  transform: scale(1.05);
+}
+
+.certificate-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.certificate-card p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.certificate-card button {
+  background: yellow;
+  color: black;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background0.3s;
+}
+
+.certificate-card button:hover {
+  background: orange;
+  color: white;
+}
+.skills {
+  background: #111;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 36px;
+  color: orange;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  max-width: 700px;
+  margin: auto;
+  text-align: left;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill span {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 20px;
+  color: black;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Skill Levels */
+.html    { width: 90%; background:  #fdd835; }
+.css     { width: 85%; background:  #fdd835;}
+.js      { width: 75%; background: #fdd835; }
+.python  { width: 70%; background:  #fdd835;}
+.sql     { width: 60%; background:  #fdd835; }
+/* ✅ Responsive for Mobile Devices */
+@media screen and (max-width: 600px) {
+  .skills h2 {
+    font-size: 28px;
+  }
+
+  .skill span {
+    font-size: 16px;
+  }
+
+  .progress {
+    font-size: 14px;
+    padding-right: 5px;
+  }
+
+  .skills-container {
+    padding: 0 10px;
+  }
+}
+//js
+// Scroll active nav
+const navLinks = document.querySelectorAll("nav ul li a");
+
+window.addEventListener("scroll", () => {
+  let fromTop = window.scrollY;
+  navLinks.forEach(link => {
+    let section = document.querySelector(link.getAttribute("href"));
+    if (
+      section.offsetTop <= fromTop &&
+      section.offsetTop + section.offsetHeight > fromTop
+    ) {
+      navLinks.forEach(l => l.classList.remove("active"));
+      link.classList.add("active");
+    }
+  });
+});
+function toggleAbout() {
+  const fullText = document.querySelector('.about-text.full');
+  const button = document.querySelector('.read-btn');
+
+  if (fullText.classList.contains('hidden')) {
+    fullText.classList.remove('hidden');
+    button.textContent = 'Read Less';
+  } else {
+    fullText.classList.add('hidden');
+    button.textContent = 'Read More';
+  }
+}
